@@ -1,0 +1,50 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "settings": {
+        "import/resolver": {
+           "node": {
+              "extensions": [".js", ".jsx", ".ts", ".tsx"]
+           }
+        },
+        "react": {
+            "version" : "detect"
+          }
+    },    
+    "extends": [
+        "plugin:react/recommended",     
+        "airbnb-base",
+        "prettier"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "prettier"
+    ],
+    "rules": {
+
+        // Ici vous définissez vos règles de syntaxe
+        // Retrouvez les règles sur la documentation d'ESLint
+        "prettier/prettier": "error",
+        "no-param-reassign": ["error", { "props": false }],
+        "no-unused-vars": "warn",
+        "no-console": "off",
+        "func-names": "off",
+        "no-process-exit": "off",
+        "object-shorthand": "off",
+        "class-methods-use-this": "off",
+
+        // Seulement si c'est un projet React
+        "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx", ".ts"]}],
+        "react/jsx-one-expression-per-line": "off"
+    }
+}       

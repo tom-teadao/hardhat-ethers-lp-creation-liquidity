@@ -1,0 +1,15 @@
+{
+  "solidity.compileUsingRemoteVersion": "v0.8.0",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "[javascript]": {
+
+	  "editor.formatOnSave": false
+  }, 
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
+}
