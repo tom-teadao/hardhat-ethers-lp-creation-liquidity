@@ -34,6 +34,8 @@ async function main() {
     // const out = await teaToken.balanceOf(deployer.address)
     // console.log("balance of deployer for teaToken", out.toString())
 
+    // return
+
     // deploy a mock busd token
     const BusdToken = await ethers.getContractFactory("Token2");
     const busdToken = await BusdToken.deploy();
