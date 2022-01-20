@@ -91,7 +91,7 @@ async function main() {
 
 
       
-      console.log('TEA_BUSD_LP_TOKEN address: ', pairAddress)
+      console.log('TEABUSDLP_ADDRESS: ', pairAddress)
  
       // Add liquidity to the pool and give LP Token to DAO_ADDRESS
 
