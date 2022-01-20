@@ -114,7 +114,7 @@ async function main() {
         await addLiquidTx.wait({ gasLimit: 6700000, gasPrice: 15000000000 })
       
       const balance = await pair.balanceOf(DAO_ADDRESS); 
-      console.log(`balance LP: ${parseFloat(balance)*10**18}`);
+      console.log(`balance LP: ${balance}`);
 
     } catch(e) {
 
