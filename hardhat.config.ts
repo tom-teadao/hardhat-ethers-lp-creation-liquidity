@@ -41,8 +41,8 @@ import "@nomiclabs/hardhat-waffle";
     bsctestnet: {
       url: 'https://data-seed-prebsc-1-s1.binance.org:8545/',
       accounts:process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
-      // gas: 6700000,
-	    // gasPrice: 8000000000,
+      gas: 6700000,
+      gasPrice: 15000000000,
       chainId: 97,
     },
   },
